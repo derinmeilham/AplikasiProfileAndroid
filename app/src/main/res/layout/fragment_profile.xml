@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.ProfileFragment">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="PROFILE"
+            android:textSize="25sp"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/image"/>
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:textColor="#000"
+            android:padding="5dp"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:text="NIM                     : 10116040 "/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:textColor="#000"
+            android:textSize="18dp"
+            android:padding="5dp"
+            android:textStyle="bold"
+            android:text="Nama                  : Anjas Kurnia Sandy"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:textColor="#000"
+            android:textSize="18dp"
+            android:padding="5dp"
+            android:textStyle="bold"
+            android:text="Kelas                   :  IF1   "/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+
+            android:textColor="#000"
+            android:padding="5dp"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:text="Deskripsi diri      : "/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="16dp"
+            android:textColor="#000"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:text="Saya seorang Mahasiswa di sebuah
+        universitas dibandung, yang suka web programming dan dunia literasi      "/>
+    </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

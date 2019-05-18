@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/profile_menu"
+        android:icon="@drawable/ic_sentiment_satisfied_black_24dp"
+        android:title="@string/profileku" />
+
+    <item
+        android:id="@+id/kontak"
+        android:icon="@drawable/ic_account_box_black_24dp"
+        android:title="@string/kontak" />
+
+    <item
+        android:id="@+id/daftar_teman"
+        android:icon="@drawable/ic_toc_black_24dp"
+        android:title="@string/teman" />
+
+</menu>

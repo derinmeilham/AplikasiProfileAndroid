@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@color/birumuda"
+    android:orientation="vertical"
+    >
+
+    <ImageView
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="85dp"
+        android:layout_marginRight="50dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:id="@+id/iv_onboard"
+        android:layout_width="220dp"
+        android:layout_height="183dp"
+        android:gravity="center"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_sentiment_satisfied_black_24dp" />
+
+    <RelativeLayout
+        android:layout_below="@+id/iv_onboard"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_centerVertical="true"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_header"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingLeft="@dimen/ob_desc_padding"
+                android:paddingRight="@dimen/ob_desc_padding"
+                android:textStyle="bold"
+                android:text="@string/ob_header1"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="@dimen/ob_header_text_size" />
+
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</LinearLayout>
